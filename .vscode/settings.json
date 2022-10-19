@@ -1,3 +1,9 @@
 {
-	"conventionalCommits.scopes": ["app", "styling", "category"]
+	"conventionalCommits.scopes": [
+		"app",
+		"styling",
+		"category",
+		"directory",
+		"dependencies"
+	]
 }
