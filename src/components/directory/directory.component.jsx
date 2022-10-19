@@ -3,7 +3,7 @@ import CategoryItem from '../category-item/category-item.component';
 
 const Categories = ({ categories }) => {
 	return (
-		<div className="categories-container">
+		<div className="directory-container">
 			{categories.map(({ title, id, imageUrl }) => {
 				return (
 					<CategoryItem key={id} title={title} imageUrl={imageUrl} />
