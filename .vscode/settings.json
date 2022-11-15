@@ -4,6 +4,7 @@
 		"styling",
 		"category",
 		"directory",
-		"dependencies"
+		"dependencies",
+		"auth"
 	]
 }
