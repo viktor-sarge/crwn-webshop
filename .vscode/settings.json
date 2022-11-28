@@ -5,6 +5,7 @@
 		"category",
 		"directory",
 		"dependencies",
-		"auth"
+		"auth",
+		"button"
 	]
 }
