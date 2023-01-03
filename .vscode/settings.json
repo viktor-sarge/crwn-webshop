@@ -6,6 +6,7 @@
 		"directory",
 		"dependencies",
 		"auth",
-		"button"
+		"button",
+		"cart"
 	]
 }
