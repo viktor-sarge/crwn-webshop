@@ -3,10 +3,14 @@ import {
 	BackgroundImage,
 	DirectoryItemBody,
 } from './directory-item.styles';
+import { useNavigate } from 'react-router-dom';
 
-const DirectoryItem = ({ id, imageUrl, title }) => {
+const DirectoryItem = ({ id, imageUrl, title, route }) => {
+	const navigate = useNavigate();
+
+	const onNavigationHandler = () => navigate(route);
 	return (
-		<DirectoryItemContainer key={id}>
+		<DirectoryItemContainer key={id} onClick={onNavigationHandler}>
 			<BackgroundImage imageUrl={imageUrl} />
 			<DirectoryItemBody>
 				<h2>{title.toUpperCase()}</h2>
